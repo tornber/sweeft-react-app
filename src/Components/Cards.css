@@ -1,0 +1,32 @@
+.cards {
+    width: 90%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5%; 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+  }
+  
+  .card {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #ccc;
+      cursor: pointer;
+  }
+  
+  .card img {
+      width: 100%;
+      margin-bottom: 4px;
+  }
+  
+  .card h1 {
+      padding: 2px 10px;
+      font-size: 16px;
+      margin: 0;
+  }
+  
+  .card h1:last-child {
+      font-weight: normal;
+  }
+  
